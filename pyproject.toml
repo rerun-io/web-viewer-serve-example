@@ -1,4 +1,4 @@
 [project]
 name = "web-viewer-serve-example"
 version = "0.0.0"
-dependencies = ["rerun-sdk==0.20.3", "numpy"]
+dependencies = ["rerun-sdk==0.22.0", "numpy"]

@@ -94,7 +94,7 @@ wheels = [
 
 [[package]]
 name = "rerun-sdk"
-version = "0.20.3"
+version = "0.22.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
@@ -104,11 +104,11 @@ dependencies = [
     { name = "typing-extensions" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/23/ae/4f77bd62575f9b1eb38d47c2f7094e54b892ec435ae061531998866be24e/rerun_sdk-0.20.3-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:7a38db1f145726314164aa7632ace8c3c7025aa19e0a60312ecea25b5f454fc3", size = 41847844 },
-    { url = "https://files.pythonhosted.org/packages/2c/b5/5f00bb7b884e193ff08ce910c64c7fd3d8e5b0c06b22f0d662ceea0e8f75/rerun_sdk-0.20.3-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:7ee9083d9072cd9d20c461f62f38b0360bbe10059a79ce2fbfae561c47ac36e4", size = 40049743 },
-    { url = "https://files.pythonhosted.org/packages/47/21/892318008ff3b35a003659b4654176a0bf0d4c59f5005a4bc9f2715b262e/rerun_sdk-0.20.3-cp38-abi3-manylinux_2_31_aarch64.whl", hash = "sha256:b3ec9fb763339b20b1d6aa03eae20d7ba7c5b9122ecd1f3b4bf89776250cc2ed", size = 44524933 },
-    { url = "https://files.pythonhosted.org/packages/23/b2/55cc70aa034fb440f877080fdd1d87bbb4a4313446be52f35f868b209ed5/rerun_sdk-0.20.3-cp38-abi3-manylinux_2_31_x86_64.whl", hash = "sha256:c30742b7629d9b151414feda54c42ac11bcaabab7a81edf732bfe4c1164ef613", size = 45975083 },
-    { url = "https://files.pythonhosted.org/packages/f7/52/c2fc95798683c6685db80003233937ad04bcfa5adaab222b1cd5d0ad8c36/rerun_sdk-0.20.3-cp38-abi3-win_amd64.whl", hash = "sha256:5756809ce587519fd115ebd85104abb8fe59f5c3e192450f3128eb196b7cdcd3", size = 37473082 },
+    { url = "https://files.pythonhosted.org/packages/f0/a5/e633716493189f38caae680280343a05e0d28529a5a5cd3349d3ab58fc5f/rerun_sdk-0.22.0-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:2ccdeb7beb236d7a4214b742bc308c291eca9488bcaa11d59cd3ddebab578fbf", size = 46782161 },
+    { url = "https://files.pythonhosted.org/packages/20/da/ad5ff8beb000824eb47d0d0722570e1a82056b7d5da724c65da3995e3dac/rerun_sdk-0.22.0-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:50224ae88db978aae4583f238e4a438d7a06c7e6e4d42b28d5af378cf377b290", size = 44524346 },
+    { url = "https://files.pythonhosted.org/packages/79/6e/cb2b6d1fa4f524a880e267847937237084b810f0125c71a8d87eaf50e3c2/rerun_sdk-0.22.0-cp38-abi3-manylinux_2_31_aarch64.whl", hash = "sha256:2c8f8cc2178ba77eafa6a66ccea2b732f555f210d0cfba3be21194fd6af474a7", size = 49761436 },
+    { url = "https://files.pythonhosted.org/packages/24/aa/a80c3205b047b789f63858d768d278607a1e19e8a9d78adc8904814d7a87/rerun_sdk-0.22.0-cp38-abi3-manylinux_2_31_x86_64.whl", hash = "sha256:e954fc1ade1ff74670904bb72c5d974983efb213943c7cb8fbb530fea8fa8080", size = 51352822 },
+    { url = "https://files.pythonhosted.org/packages/ac/9b/77d6411e1c72f71ed117d68930b9e195f7b6d0bc20fd861cd372ab4e3354/rerun_sdk-0.22.0-cp38-abi3-win_amd64.whl", hash = "sha256:5b904b561c8e061af15dd46be7e9ba7d29edaa207c9e54e3af0688b047bdb311", size = 42053438 },
 ]
 
 [[package]]
@@ -132,5 +132,5 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "numpy" },
-    { name = "rerun-sdk", specifier = "==0.20.3" },
+    { name = "rerun-sdk", specifier = "==0.22.0" },
 ]
